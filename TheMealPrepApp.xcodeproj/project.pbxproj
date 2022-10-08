@@ -9,23 +9,19 @@
 /* Begin PBXBuildFile section */
 		B036640728F14918003FC662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036640628F14918003FC662 /* AppDelegate.swift */; };
 		B036640928F14918003FC662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036640828F14918003FC662 /* SceneDelegate.swift */; };
-		B036640B28F14918003FC662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036640A28F14918003FC662 /* ViewController.swift */; };
-		B036640E28F14918003FC662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B036640C28F14918003FC662 /* Main.storyboard */; };
 		B036641128F14918003FC662 /* TheMealPrepApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B036640F28F14918003FC662 /* TheMealPrepApp.xcdatamodeld */; };
 		B036641328F1491C003FC662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B036641228F1491C003FC662 /* Assets.xcassets */; };
-		B036641628F1491C003FC662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B036641428F1491C003FC662 /* LaunchScreen.storyboard */; };
+		B036641E28F149F7003FC662 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036641D28F149F7003FC662 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B036640328F14918003FC662 /* TheMealPrepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMealPrepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B036640628F14918003FC662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B036640828F14918003FC662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B036640A28F14918003FC662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B036640D28F14918003FC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B036641028F14918003FC662 /* TheMealPrepApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheMealPrepApp.xcdatamodel; sourceTree = "<group>"; };
 		B036641228F1491C003FC662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B036641528F1491C003FC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B036641728F1491C003FC662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B036641D28F149F7003FC662 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +56,10 @@
 			children = (
 				B036640628F14918003FC662 /* AppDelegate.swift */,
 				B036640828F14918003FC662 /* SceneDelegate.swift */,
-				B036640A28F14918003FC662 /* ViewController.swift */,
-				B036640C28F14918003FC662 /* Main.storyboard */,
 				B036641228F1491C003FC662 /* Assets.xcassets */,
-				B036641428F1491C003FC662 /* LaunchScreen.storyboard */,
 				B036641728F1491C003FC662 /* Info.plist */,
 				B036640F28F14918003FC662 /* TheMealPrepApp.xcdatamodeld */,
+				B036641D28F149F7003FC662 /* MainTabBarController.swift */,
 			);
 			path = TheMealPrepApp;
 			sourceTree = "<group>";
@@ -128,9 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B036641628F1491C003FC662 /* LaunchScreen.storyboard in Resources */,
 				B036641328F1491C003FC662 /* Assets.xcassets in Resources */,
-				B036640E28F14918003FC662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +133,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B036640B28F14918003FC662 /* ViewController.swift in Sources */,
 				B036640728F14918003FC662 /* AppDelegate.swift in Sources */,
+				B036641E28F149F7003FC662 /* MainTabBarController.swift in Sources */,
 				B036640928F14918003FC662 /* SceneDelegate.swift in Sources */,
 				B036641128F14918003FC662 /* TheMealPrepApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B036640C28F14918003FC662 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B036640D28F14918003FC662 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B036641428F1491C003FC662 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B036641528F1491C003FC662 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B036641828F1491C003FC662 /* Debug */ = {
