@@ -12,6 +12,9 @@
 		B036641128F14918003FC662 /* TheMealPrepApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B036640F28F14918003FC662 /* TheMealPrepApp.xcdatamodeld */; };
 		B036641328F1491C003FC662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B036641228F1491C003FC662 /* Assets.xcassets */; };
 		B036641E28F149F7003FC662 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036641D28F149F7003FC662 /* MainTabBarController.swift */; };
+		B036642028F1D2BA003FC662 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036641F28F1D2BA003FC662 /* HomePageViewController.swift */; };
+		B036642228F1D2CD003FC662 /* MostLikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036642128F1D2CD003FC662 /* MostLikedViewController.swift */; };
+		B036642428F1D3B7003FC662 /* ProfileUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036642328F1D3B7003FC662 /* ProfileUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B036641228F1491C003FC662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B036641728F1491C003FC662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B036641D28F149F7003FC662 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B036641F28F1D2BA003FC662 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B036642128F1D2CD003FC662 /* MostLikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostLikedViewController.swift; sourceTree = "<group>"; };
+		B036642328F1D3B7003FC662 /* ProfileUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				B036641728F1491C003FC662 /* Info.plist */,
 				B036640F28F14918003FC662 /* TheMealPrepApp.xcdatamodeld */,
 				B036641D28F149F7003FC662 /* MainTabBarController.swift */,
+				B036641F28F1D2BA003FC662 /* HomePageViewController.swift */,
+				B036642128F1D2CD003FC662 /* MostLikedViewController.swift */,
+				B036642328F1D3B7003FC662 /* ProfileUserViewController.swift */,
 			);
 			path = TheMealPrepApp;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			files = (
 				B036640728F14918003FC662 /* AppDelegate.swift in Sources */,
 				B036641E28F149F7003FC662 /* MainTabBarController.swift in Sources */,
+				B036642428F1D3B7003FC662 /* ProfileUserViewController.swift in Sources */,
 				B036640928F14918003FC662 /* SceneDelegate.swift in Sources */,
+				B036642028F1D2BA003FC662 /* HomePageViewController.swift in Sources */,
 				B036641128F14918003FC662 /* TheMealPrepApp.xcdatamodeld in Sources */,
+				B036642228F1D2CD003FC662 /* MostLikedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +279,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheMealPrepApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,8 +304,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheMealPrepApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

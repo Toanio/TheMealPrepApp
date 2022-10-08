@@ -9,12 +9,36 @@ import UIKit
 
 class MainTabBarController: UITabBarController {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        generateTabBar()
+        setTabBarApperance()
     }
-    */
+    
+    private func generateTabBar() {
+        viewControllers = [
+        generateVC(
+            viewController: HomePageViewController(),
+            image: UIImage(systemName: "house")),
+        generateVC(
+            viewController: MostLikedViewController(),
+            image: UIImage(systemName: "heart")),
+        generateVC(
+            viewController: ProfileUserViewController(),
+            image: UIImage(systemName: "person.circle"))]
+    }
+    
+    private func generateVC(viewController: UIViewController, image: UIImage?) -> UIViewController {
+        
+        viewController.tabBarItem.image = image
+        return viewController
+    }
+    
+    private func setTabBarApperance() {
+        
+        tabBar.backgroundColor = .white
+        tabBar.tintColor = .black
+        
+    }
 
 }
